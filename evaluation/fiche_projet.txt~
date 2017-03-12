@@ -1,0 +1,39 @@
+
+Fiche projet.
+
+
+
+Reproduire à l'identique le site "Examedia" visible à l'URL :  http//octopus.alwaysdata.net avec le thème WordPress  "examedia" et quelques adaptations dans le code.
+
+Pour cela, vous partirez du thème "examedia" que vous trouverez dans le dossier examedia/theme/ contenu dans le zip téléchargeable à l'URL : http://octopus.alwaysdata.net/evaluation.zip
+
+
+Ce zip contient :
+- le thème "examedia" dans le dossier /themes/examedia
+- le plugin "contact-form-7" dans le dossier /plugin/contact-form-7 (utilisé pour construire le formulaire de contact)
+Documentation du plugin ici : http://contactform7.com/docs/
+- les images dans le dossier /img
+
+Vous installerez WordPress sur une offre gratuite Always Data: https://www.alwaysdata.com/subscribe/customer/
+Vous choisirez comme "Account name" votre nom de famille afin d'obtenir une URL de la forme :
+
+votrenomdefamille.alwaysdata.net
+
+Tout le site est reproductible sans ligne de code, uniquement avec les fonctionnalités WordPress à l'exception de :
+
+- La page des "Réalisations" qui est constitué d'un Custom Post Type "realisation" et que vous devrez coder vous-mêmes.
+- Le template page "without-sidebar" appliqué aux pages "Nos services" et "Notre équipe" que vous devrez coder vous-mêmes également.
+
+La template page doit permettre d'afficher une page sans sidebar à droite et d'étaler son contenu sur 100% de la largeur de la page.
+
+Il faudra donc :
+
+1 - Installer WordPress sur votre compte gratuit Always Data (choisir login = lpatc2015 / mot de passe = lpatc2015)
+2 - Installer et activer le thème "examedia" disponible sous forme zippé ici : http//octopus.alwaysdata.net/examedia.zip
+3 - Installer et activer le plugin "contact-form-7" pour construire le formulaire de contact de la page "contact"
+4 - Reproduire A L'IDENTIQUE le site "Examedia" visible à l'adresse http//octopus.alwaysdata.net
+> En utilisant les fonctionalités WordPress, le thème "examedia", le plugin "contact-form-7"
+> En ajoutant quelques lignes de code dans le thème (template page, custom post type)
+
+Votre site devra être accessible l'adresse "votrenomdefamille.alwaysdata.net" (rempacer "votrenomdefamille" par votre veritable nom de famille)
+L'espace d'administration de votre site devra être accessible avec le login = lpatc2015 et le mot de passe = lpatc2015

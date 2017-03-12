@@ -1,0 +1,38 @@
+/*
+Theme Name: lpatc
+Theme URI: http://www.licence-multimedia-corse.org/
+Author: lpatc team
+Author URI: http://www.licence-multimedia-corse.org/
+Description: Mon premier thème WordPress en Licence Professionnelle ATC.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, custom-menu
+Text Domain: lpatc
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+header,
+#main,
+footer {
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #AFAFAF;
+}
+
+header {
+	background-color: #DAFBFB;
+}
+
+.wrapper { 
+	background-color: #FFFFFF; 
+}
+
+footer {
+	background-color: #DAFBFB;
+}
+

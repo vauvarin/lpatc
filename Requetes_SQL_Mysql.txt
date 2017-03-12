@@ -1,0 +1,20 @@
+Création d'un utilisateur
+-----------------------------
+
+CREATE USER 'user_wordpress'@'localhost' IDENTIFIED BY 'f5g4_password';
+
+
+
+
+Attributions de droits à cet utilisateur sur la base « user_wordpress »
+-----------------------------------------------------------------------
+
+GRANT ALL PRIVILEGES ON *.* TO 'user_wordpress'@'localhost' IDENTIFIED BY 'f5g4_password';
+
+
+
+
+Pour s'assurer que les changements soient pris en compte
+--------------------------------------------------------
+
+FLUSH PRIVILEGES; 
